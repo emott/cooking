@@ -1,26 +1,16 @@
 {
-  "name": "cooking4u",
-  "version": "1.0.0",
-  "description": "get recipe ideas based on what you have on hand",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emott/cooking.git"
-  },
-  "keywords": [
-    "cooking",
-    "recipe"
-  ],
-  "author": "Ben Aronson, Lihan Zhang, & Eric Mott",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emott/cooking/issues"
-  },
-  "homepage": "https://github.com/emott/cooking#readme",
+  "name": "cooking-4-u",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "create-react-app": "^1.5.2"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

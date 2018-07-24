@@ -1,2 +1,3 @@
-# cooking 4 u
-Catalogues your refridgerator and suggests recipes
+# Cooking-4-U
+
+Catalogs your fridge food and suggests different recipes
