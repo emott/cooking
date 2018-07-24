@@ -12,7 +12,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-          <iframe src="https://giphy.com/embed/GcSqyYa2aF8dy" width="480" height="358" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/personal-shia-labeouf-just-saying-GcSqyYa2aF8dy">Let's Just do it boys</a></p>
+          <iframe src="https://giphy.com/embed/GcSqyYa2aF8dy" width="480" height="358" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Let's Just do it boys</p>
         </p>
       </div>
     );
