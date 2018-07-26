@@ -1,7 +1,17 @@
 {
-  "name": "cooking-4-u",
+  "name": "cooking",
   "version": "0.1.0",
+  "author": "",
+  "license": "ISC",
   "private": true,
+  "main": "index.js",
+  "description": "Catalogs your fridge food and suggests different recipes",
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject"
+  },
   "dependencies": {
     "ajv": "^6.5.2",
     "react": "^16.4.1",
@@ -10,14 +20,7 @@
     "ajv-keywords": "^3.2.0",
     "eslint-plugin-react": "^7.10.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "description": "Catalogs your fridge food and suggests different recipes",
-  "main": "index.js",
+
   "devDependencies": {
     "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
@@ -30,8 +33,6 @@
     "type": "git",
     "url": "git+https://github.com/emott/cooking.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/emott/cooking/issues"
   },

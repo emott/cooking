@@ -22,6 +22,28 @@
   font-size: large;
 }
 
+.App-sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;     /* stay on top */
+  left: 0;
+  background-color: #d5e8f4;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.App-sidenav button {
+  margin: 10px 10px;
+  font-size: 25px;
+  color: #818181;
+  display: inline-block;
+}
+
+.App-sidenav button:hover {
+  color: red;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
