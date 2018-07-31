@@ -44,6 +44,23 @@
   color: red;
 }
 
+.App-rightnav {
+  height: 100%;
+  width: 260px;
+  overflow-x: hidden;
+  z-index: 1;
+  float: right;
+  padding-top: 20px;
+  background-color: #d5e8f4;
+}
+
+.App-recipediv {
+  height: 100%;
+  margin-left: 160px;
+  margin-right: 260px;
+  z-index: 0;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

@@ -1,6 +1,7 @@
 /* eslint-disable indent,no-trailing-spaces */
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Reciper from './Reciper';
 import './App.css';
 
 class Header extends Component {
@@ -15,12 +16,6 @@ class Header extends Component {
 }
 
 class App extends Component {
-  constructor (props) {
-    super(props);
-
-    this.sayHello = this.sayHello.bind(this);
-  }
-
   sayHello () {
     return (
       console.log('Whaddup bois')
@@ -34,6 +29,15 @@ class App extends Component {
         <div className="App-sidenav">
           <button onClick={this.sayHello}>Test</button>
           <button>Recipes</button>
+        </div>
+        <div className="App-recipediv">
+          <Reciper />
+        </div>
+        <div className="App-rightnav">
+          <h4>Current Ingredients</h4>
+          <ul className="current-ingredients">
+            <li>None</li>
+          </ul>
         </div>
       </div>
     );
